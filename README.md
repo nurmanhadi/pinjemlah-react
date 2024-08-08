@@ -16,7 +16,7 @@ Untuk menjalankan aplikasi ini secara lokal, ikuti langkah-langkah berikut:
 1. **Clone repositori ini:**
 
    ```bash
-   git clone https://github.com/username/pinjemlah-react.git
+   git clone https://github.com/nurmanhadi/pinjemlah-react.git
 
 # React + Vite
 
