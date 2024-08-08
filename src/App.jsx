@@ -14,15 +14,15 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path='/' Component={HomePage} />
-        <Route path='/login' Component={Login} />
-        <Route path='/profile/:id' Component={UserProfile} />
-        <Route path='/loan/:id' Component={LoanPage} />
-        <Route path='/pinjaman' Component={LoansPage} />
-        <Route path='/report/user' Component={ReportUser} />
-        <Route path='/report/loan' Component={ReportLoan} />
-        <Route path='/report/payment' Component={ReportPayment} />
-        <Route path='/report/cicilan' Component={ReportCicilan} />
+        <Route path='/' element={<HomePage />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/profile/:id' element={<UserProfile />} />
+        <Route path='/loan/:id' element={<LoanPage />} />
+        <Route path='/pinjaman' element={<LoansPage />} />
+        <Route path='/report/user' element={<ReportUser />} />
+        <Route path='/report/loan' element={<ReportLoan />} />
+        <Route path='/report/payment' element={<ReportPayment />} />
+        <Route path='/report/cicilan' element={<ReportCicilan />} />
       </Routes>
     </Router>
   )
