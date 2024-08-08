@@ -22,7 +22,7 @@ const CardUser = () => {
         const res = await axios.delete(`/admin/delete/${e}`)
         if (res.status === 200) {
             alert("Berhasil hapus user")
-            nav('/home')
+            nav('/')
         } else {
             alert(res.data['message'])
         }

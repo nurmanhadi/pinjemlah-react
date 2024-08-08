@@ -17,7 +17,7 @@ const AdminLogin = () => {
             const response = await axios.post('/auth/admin/login', formData);
             var data = response.data.token
             localStorage.setItem('token', data);
-            nav('/home')
+            nav('/')
         } catch (error) {
             console.error('Login error:', error.response.data.message);
         }

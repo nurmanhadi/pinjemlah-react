@@ -85,7 +85,7 @@ const ReportPayment = () => {
         doc.text('Muhammad Nurman Hadi', 190, yPos + 40, { align: 'right' });
 
         doc.save('payment_report.pdf');
-        nav('/home')
+        nav('/')
     }
     return (
         <div className='flex justify-center'>

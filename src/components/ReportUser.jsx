@@ -88,7 +88,7 @@ const ReportUser = () => {
         doc.text('Muhammad Nurman Hadi', 190, yPos + 40, { align: 'right' });
 
         doc.save('user_report.pdf');
-        nav('/home')
+        nav('/')
     };
 
     return (

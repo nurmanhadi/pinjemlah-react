@@ -19,14 +19,14 @@ const Navigation = () => {
     return (
         <div className="navbar bg-MyColor">
             <div className="flex-1 ml-5">
-                <Link to={'/home'}>
+                <Link to={'/'}>
                     <img src={logo} alt="Logo" className="h-16" />
                 </Link>
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1 flex space-x-4 font-bold text-white mr-5">
                     <li>
-                        <Link to="/home">Beranda</Link>
+                        <Link to="/">Beranda</Link>
                     </li>
                     <li>
                         <Link to="/pinjaman">Pinjaman</Link>

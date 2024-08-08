@@ -7,7 +7,7 @@ function Login() {
     const token = localStorage.getItem('token');
     useEffect(() => {
         if (token) {
-            nav('/home')
+            nav('/')
         } else {
             nav('/login')
         }

@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/home' Component={HomePage} />
+        <Route exact path='/' Component={HomePage} />
         <Route path='/login' Component={Login} />
         <Route path='/profile/:id' Component={UserProfile} />
         <Route path='/loan/:id' Component={LoanPage} />

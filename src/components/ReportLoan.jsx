@@ -83,7 +83,7 @@ const ReportLoan = () => {
         doc.text('Muhammad Nurman Hadi', 190, yPos + 40, { align: 'right' });
 
         doc.save('Pinjaman_report.pdf');
-        nav('/home')
+        nav('/')
     };
 
     return (
